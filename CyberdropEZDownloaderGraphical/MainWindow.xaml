@@ -1,0 +1,15 @@
+﻿<Window x:Class="CyberdropEZDownloaderGraphical.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Cyberdrop EZ Downloader (GUI) - Bolzofstil" Height="450" Width="800">
+    <Grid>
+        <Button Margin="10,4,519,369" Content="Récup. documents" Click="RecupDoc_Click"></Button>
+        <TextBox Margin="312,4,10,369" Name="CDLink"></TextBox>
+        <ListBox Margin="10,87,359,37" Name="DocList"></ListBox>
+        <Button Margin="464,87,10,273" Content="Télécharger" Click="TelechargerContenu_Click"></Button>
+        <Button Margin="464,347,10,37" Content="A Propos"></Button>
+    </Grid>
+</Window>
