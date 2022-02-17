@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CyberdropEZDownloaderGraphical.ListBase
 {
-    class BaseCyberdrop
+    public class BaseCyberdrop
     {
         private string nom_album;
 
